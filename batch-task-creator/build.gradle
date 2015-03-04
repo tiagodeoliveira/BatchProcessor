@@ -1,0 +1,29 @@
+group 'com.zenvia'
+version '0.1.0-SNAPSHOT'
+
+vertx {
+    config {
+        main 'groovy:com.zenvia.task.TaskWorker'
+    }
+
+    info {
+        description 'Batch task credit check'
+
+        deployments {
+            mod {
+                platform {
+                    version '2.1RC3'
+                }
+            }
+        }
+
+        developers {
+            developer {
+                id 'tiagooliveira'
+                name 'Tiago Oliveira'
+                email 'tiago.oliveira@zenvia.com'
+            }
+        }
+
+    }
+}
