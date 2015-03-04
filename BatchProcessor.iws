@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afa6bfc5-58ca-457c-8e31-ca942552afb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/batch-task-react/batch-task-react.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/batch-task-react/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/batch-task-react/conf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.iml" afterPath="$PROJECT_DIR$/BatchProcessor.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.ipr" afterPath="$PROJECT_DIR$/BatchProcessor.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.iws" afterPath="$PROJECT_DIR$/BatchProcessor.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-    </list>
+    <list default="true" id="afa6bfc5-58ca-457c-8e31-ca942552afb0" name="Default" comment="" />
     <ignored path="BatchProcessor.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -2728,7 +2719,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425487497059</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New reactive module">
+      <created>1425488037862</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1425488037862</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2781,7 +2778,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="Improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improvements" />
+    <MESSAGE value="New reactive module" />
+    <option name="LAST_COMMIT_MESSAGE" value="New reactive module" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
