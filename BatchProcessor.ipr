@@ -37,6 +37,7 @@
             <option value="$PROJECT_DIR$/batch-task-bill" />
             <option value="$PROJECT_DIR$/batch-task-creator" />
             <option value="$PROJECT_DIR$/batch-task-credit-check" />
+            <option value="$PROJECT_DIR$/batch-task-react" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -73,6 +74,7 @@
       <module fileurl="file://$PROJECT_DIR$/batch-task-bill/batch-task-bill.iml" filepath="$PROJECT_DIR$/batch-task-bill/batch-task-bill.iml" />
       <module fileurl="file://$PROJECT_DIR$/batch-task-creator/batch-task-creator.iml" filepath="$PROJECT_DIR$/batch-task-creator/batch-task-creator.iml" />
       <module fileurl="file://$PROJECT_DIR$/batch-task-credit-check/batch-task-credit-check.iml" filepath="$PROJECT_DIR$/batch-task-credit-check/batch-task-credit-check.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch-task-react/batch-task-react.iml" filepath="$PROJECT_DIR$/batch-task-react/batch-task-react.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

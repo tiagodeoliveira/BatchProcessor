@@ -1,0 +1,29 @@
+group 'com.zenvia'
+version '0.1.0-SNAPSHOT'
+
+vertx {
+    config {
+        main 'groovy:com.zenvia.task.AdminWorker'
+    }
+
+    info {
+        description 'Batch task admin'
+
+        deployments {
+            mod {
+                platform {
+                    version '2.1RC3'
+                }
+            }
+        }
+
+        developers {
+            developer {
+                id 'tiagooliveira'
+                name 'Tiago Oliveira'
+                email 'tiago.oliveira@zenvia.com'
+            }
+        }
+
+    }
+}
