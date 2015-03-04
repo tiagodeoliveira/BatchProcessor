@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa6bfc5-58ca-457c-8e31-ca942552afb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/zenvia/task/AdminWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/zenvia/task/AdminWorker.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.ipr" afterPath="$PROJECT_DIR$/BatchProcessor.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.iws" afterPath="$PROJECT_DIR$/BatchProcessor.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/zenvia/credit/CreditWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/zenvia/credit/CreditWorker.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/zenvia/task/TaskWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/zenvia/task/TaskWorker.groovy" />
     </list>
     <ignored path="BatchProcessor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,7 +105,7 @@
       <file leaf-file-name="BillWorker.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10358566" vertical-offset="803" max-vertical-offset="1455">
+            <state vertical-scroll-proportion="0.33532935" vertical-offset="687" max-vertical-offset="1455">
               <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
@@ -2316,22 +2311,30 @@
       <option name="number" value="Default" />
       <updated>1425428061692</updated>
     </task>
+    <task id="LOCAL-00001" summary="Improvements">
+      <created>1425487424460</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1425487424460</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="24" width="1395" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24538064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2344,7 +2347,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988167" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2367,6 +2369,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvements" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2412,7 +2416,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10358566" vertical-offset="803" max-vertical-offset="1455">
+        <state vertical-scroll-proportion="0.33532935" vertical-offset="687" max-vertical-offset="1455">
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
