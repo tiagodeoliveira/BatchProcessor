@@ -64,7 +64,7 @@ class CreditWorker extends Verticle {
                 contentType: "application/json",
                 body: message
         ]
-
+        container.logger.info("Sending message: ${destMessage}")
         eb.send(AMQP_BRIDGE_ADDR + ".send", destMessage) { Message reply ->
             container.logger.info("Received reply: ${reply.body()}")
         }

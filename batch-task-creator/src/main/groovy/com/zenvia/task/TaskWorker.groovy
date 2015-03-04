@@ -70,8 +70,8 @@ class TaskWorker extends Verticle {
                 if ('ok'.equals(event.body().status)) {
                     container.logger.info("Persisted: ${event.body()}")
 
-
-                    message.headers = [id: event.body()._id]
+                    message.properties = [headers: [id: event.body()._id]]
+                    
                     container.logger.info("Sending task: ${message}")
                     eb.send(AMQP_BRIDGE_ADDR + ".send", message) { Message reply ->
                         container.logger.info("Received reply: ${reply.body()}")

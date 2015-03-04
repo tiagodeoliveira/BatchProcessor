@@ -64,12 +64,26 @@ public class BillWorker extends Verticle {
 
     def processMessage(message) {
         container.logger.info("Processing message: ${message}")
-        def body = message.body.body
+
+        def mongoId = message.body.properties.headers.id
+        def newObj = message.body.body
+        newObj.status = 'closed'
+
         def eb = vertx.eventBus
 
-        eb.send(MONGO_BRIDGE_ADDR, [action: 'save', collection: 'closed', document: body]) { event ->
+        def mongoInstruction = [
+                action: 'update', 
+                collection: 'tasks', 
+                criteria: [_id: mongoId],
+                upsert : true,
+                multi : false,
+                objNew: newObj
+        ]
+        
+        container.logger.info("Persisting ID: ${mongoId}")
+        eb.send(MONGO_BRIDGE_ADDR, mongoInstruction) { event ->
             if ('ok'.equals(event.body().status)) {
-                container.logger.info("Persisted: ${body}")
+                container.logger.info("Persisted: ${event}")
             } else {
                 container.logger.error("Do not persisted: ${event.dump()}")
             }
