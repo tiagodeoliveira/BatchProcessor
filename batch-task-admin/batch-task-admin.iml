@@ -16,6 +16,17 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="Gradle: groovy-all-2.3.9">
+        <CLASSES>
+          <root url="jar:///opt/gradle-2.3/lib/groovy-all-2.3.9.jar!/" />
+          <root url="jar:///opt/gradle-2.3/lib/groovy-all-2.3.9.jar!/" />
+          <root url="jar:///opt/gradle-2.3/lib/groovy-all-2.3.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" exported="" name="Gradle: mod-rabbitmq:mod-rabbitmq:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="Gradle: io.vertx:vertx-platform:2.1RC3" level="project" />
     <orderEntry type="library" exported="" name="Gradle: io.vertx:lang-groovy:2.0.0-final" level="project" />
@@ -61,14 +72,5 @@
     <orderEntry type="library" exported="" name="Gradle: log4j:log4j:1.2.16" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.2.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.slf4j:slf4j-api:1.6.2" level="project" />
-    <orderEntry type="module-library" exported="">
-      <library name="Gradle: groovy-all-2.3.9">
-        <CLASSES>
-          <root url="jar:///opt/gradle-2.3/lib/groovy-all-2.3.9.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
   </component>
 </module>
