@@ -9,8 +9,16 @@ buildscript {
     }
 }
 
+apply plugin: 'java'
+apply plugin: 'idea'
+
+idea {
+    project {
+        vcs = 'Git'
+    }
+}
+
 subprojects {
-    apply plugin: 'idea'
     apply plugin: 'groovy'
     apply plugin: 'vertx'
 
@@ -43,7 +51,4 @@ subprojects {
             }
         }
     }
-}
-
-allprojects {
 }

@@ -1,9 +1,19 @@
 group 'com.zenvia'
 version '0.1.0-SNAPSHOT'
 
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'io.vertx:mod-rxvertx:1.0.0-beta4'
+}
+
+
 vertx {
     config {
-        main 'groovy:com.zenvia.task.AdminWorker'
+        main 'groovy:com.zenvia.react.ReactWorker'
     }
 
     info {

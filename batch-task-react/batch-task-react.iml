@@ -65,10 +65,14 @@
       <library name="Gradle: groovy-all-2.3.9">
         <CLASSES>
           <root url="jar:///opt/gradle-2.3/lib/groovy-all-2.3.9.jar!/" />
+          <root url="jar:///opt/gradle-2.3/lib/groovy-all-2.3.9.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="Gradle: io.vertx:mod-rxvertx:1.0.0-beta4" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.netflix.rxjava:rxjava-groovy:0.19.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.netflix.rxjava:rxjava-core:0.19.1" level="project" />
   </component>
 </module>

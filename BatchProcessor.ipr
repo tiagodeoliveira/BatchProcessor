@@ -130,6 +130,24 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/274324c17714564d64e566ebe8bdb0d225a67295/jackson-databind-2.2.2-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Gradle: com.netflix.rxjava:rxjava-core:0.19.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.19.1/b904da61c9cc7468122e3ef4ad471140028e6791/rxjava-core-0.19.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-core/0.19.1/f9690c3c99fc0e143ed4095b9a71e5f7900abe90/rxjava-core-0.19.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: com.netflix.rxjava:rxjava-groovy:0.19.1">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-groovy/0.19.1/a4f35256b75d0c0bb4b95fa244a018bc90e46a36/rxjava-groovy-0.19.1.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-groovy/0.19.1/cd33724ffa12fd5e35d4c6c660b4f21c2a62ebd8/rxjava-groovy-0.19.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Gradle: com.rabbitmq:amqp-client:3.2.2">
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/3.2.2/9e4485e734415e84ea3caea25650f8651f388a3a/amqp-client-3.2.2.jar!/" />
@@ -182,6 +200,15 @@
       <JAVADOC />
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/lang-groovy/2.0.0-final/8ff02d5bfc097b7416eca86ccb82de7209f342e6/lang-groovy-2.0.0-final-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Gradle: io.vertx:mod-rxvertx:1.0.0-beta4">
+      <CLASSES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/mod-rxvertx/1.0.0-beta4/289ba14c4527669def0d6639a4bd3f2684d20c38/mod-rxvertx-1.0.0-beta4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/mod-rxvertx/1.0.0-beta4/258aafb3cd3eea9e94457ec359ed2cd6efe09cf0/mod-rxvertx-1.0.0-beta4-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: io.vertx:testtools:2.0.3-final">
