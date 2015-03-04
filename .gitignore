@@ -1,3 +1,5 @@
 .gradle
 .idea
 build
+batch-task-bill/mods/
+batch-task-creator/mods/
