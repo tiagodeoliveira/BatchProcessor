@@ -17,9 +17,6 @@ subprojects {
     repositories {
         mavenCentral()
         mavenLocal()
-        maven {
-            url "http://artifactory.ci.znv.to/artifactory/repo"
-        }
     }
 
     dependencies {
