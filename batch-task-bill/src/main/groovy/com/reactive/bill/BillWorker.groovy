@@ -1,26 +1,35 @@
-package com.zenvia.credit
+package com.reactive.bill
 
 import org.vertx.groovy.core.eventbus.Message
 import org.vertx.groovy.platform.Verticle
 
-class CreditWorker extends Verticle {
-    private static final AMQP_BRIDGE_ADDR = 'credit.check.mq'
-    private static final TASKS_QUEUE_NAME = 'tasks.queue'
-    private static final BILL_QUEUE_NAME = 'to.bill.queue'
+public class BillWorker extends Verticle {
+
+    private static final AMQP_BRIDGE_ADDR = 'to.bill.mq'
+    private static final MONGO_BRIDGE_ADDR = 'to.bill.mongopersistor'
 
     def start() {
+
         def mqConfig = [
                 uri               : "amqp://localhost:5672",
                 address           : AMQP_BRIDGE_ADDR,
                 defaultContentType: "application/json"
         ]
 
+        def mongoConfig = [
+                address : MONGO_BRIDGE_ADDR,
+                database: "reactive-test"
+        ]
+
         container.with {
+            deployModule("io.vertx~mod-mongo-persistor~2.0.0-final", mongoConfig)
+            
             deployWorkerVerticle("me.streamis.vertx.rabbitmq.RabbitMQMod", mqConfig, { event ->
                 if (!event.succeeded()) {
                     container.logger.error("Deploy error: ${event.cause()}")
                 } else {
                     container.logger.info("Deploy succeed: ${event.result()}")
+                    
                     this.registerHandler()
                 }
             })
@@ -28,15 +37,15 @@ class CreditWorker extends Verticle {
     }
 
     def registerHandler() {
-
         container.logger.info('Registering handler!')
 
         def eb = vertx.eventBus
-        def handlerId = 'tasks.handler'
+        def handlerId = 'to.bill.handler'
+        def queueName = 'to.bill.queue'
 
         def conf = [
                 exchange   : "amq.direct",
-                queueName  : TASKS_QUEUE_NAME,
+                queueName  : queueName,
                 routingKey : "*.*",
                 forward    : handlerId,
                 contentType: "application/json"
@@ -51,22 +60,33 @@ class CreditWorker extends Verticle {
         eb.send(AMQP_BRIDGE_ADDR + ".create-consumer", conf) { Message event ->
             container.logger.info('Consumer created: ' + event.body())
         }
-
     }
 
     def processMessage(message) {
         container.logger.info("Processing message: ${message}")
+
+        def mongoId = message.body.properties.headers.id
+        def newObj = message.body.body
+        newObj.status = 'closed'
+
         def eb = vertx.eventBus
 
-        def destMessage = [
-                exchange   : "amq.direct",
-                routingKey : BILL_QUEUE_NAME,
-                contentType: "application/json",
-                body: message
+        def mongoInstruction = [
+                action: 'update', 
+                collection: 'tasks', 
+                criteria: [_id: mongoId],
+                upsert : true,
+                multi : false,
+                objNew: newObj
         ]
-        container.logger.info("Sending message: ${destMessage}")
-        eb.send(AMQP_BRIDGE_ADDR + ".send", destMessage) { Message reply ->
-            container.logger.info("Received reply: ${reply.body()}")
+        
+        container.logger.info("Persisting ID: ${mongoId}")
+        eb.send(MONGO_BRIDGE_ADDR, mongoInstruction) { event ->
+            if ('ok'.equals(event.body().status)) {
+                container.logger.info("Persisted: ${event}")
+            } else {
+                container.logger.error("Do not persisted: ${event.dump()}")
+            }
         }
     }
 }

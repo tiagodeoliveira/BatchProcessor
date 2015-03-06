@@ -1,4 +1,4 @@
-group 'com.zenvia'
+group 'com.reactive'
 version '0.1.0-SNAPSHOT'
 
 repositories {
@@ -10,10 +10,9 @@ dependencies {
     compile 'io.vertx:mod-rxvertx:1.0.0-beta4'
 }
 
-
 vertx {
     config {
-        main 'groovy:com.zenvia.react.ReactWorker'
+        main 'groovy:com.reactive.react.ReactWorker'
     }
 
     info {

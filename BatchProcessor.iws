@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa6bfc5-58ca-457c-8e31-ca942552afb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.iml" afterPath="$PROJECT_DIR$/BatchProcessor.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/batch-task-credit-check/src/main/resources/conf/cluster.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/zenvia/task/AdminWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/reactive/task/AdminWorker.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/reactive/bill/BillWorker.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/zenvia/task/TaskWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/reactive/task/TaskWorker.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/zenvia/credit/CreditWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/reactive/credit/CreditWorker.groovy" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/reactive/react/ReactWorker.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.ipr" afterPath="$PROJECT_DIR$/BatchProcessor.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.iws" afterPath="$PROJECT_DIR$/BatchProcessor.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-react/batch-task-react.iml" afterPath="$PROJECT_DIR$/batch-task-react/batch-task-react.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-admin/build.gradle" afterPath="$PROJECT_DIR$/batch-task-admin/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-bill/build.gradle" afterPath="$PROJECT_DIR$/batch-task-bill/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-creator/build.gradle" afterPath="$PROJECT_DIR$/batch-task-creator/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-credit-check/build.gradle" afterPath="$PROJECT_DIR$/batch-task-credit-check/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-react/build.gradle" afterPath="$PROJECT_DIR$/batch-task-react/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-admin/conf.json" afterPath="$PROJECT_DIR$/batch-task-admin/conf.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-bill/conf.json" afterPath="$PROJECT_DIR$/batch-task-bill/conf.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-creator/conf.json" afterPath="$PROJECT_DIR$/batch-task-creator/conf.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-credit-check/conf.json" afterPath="$PROJECT_DIR$/batch-task-credit-check/conf.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-react/conf.json" afterPath="$PROJECT_DIR$/batch-task-react/conf.json" />
     </list>
     <ignored path="BatchProcessor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,14 +93,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ReactWorker.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy">
+      <file leaf-file-name="AdminWorker.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/reactive/task/AdminWorker.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27415144" vertical-offset="0" max-vertical-offset="766">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding>
-                <element signature="e#26#71#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="615">
+              <caret line="9" column="60" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/batch-task-credit-check/src/main/resources/conf/cluster.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.26946107" vertical-offset="0" max-vertical-offset="501">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,13 +124,55 @@
         <entry key="" value="true" />
         <entry key=":batch-task-admin/BatchProcessor/" value="false" />
         <entry key=":batch-task-bill/BatchProcessor/" value="false" />
-        <entry key=":batch-task-credit-check/BatchProcessor/" value="false" />
+        <entry key=":batch-task-credit-check/BatchProcessor/" value="true" />
         <entry key=":batch-task-react/BatchProcessor/" value="true" />
         <entry key="BatchProcessor/" value="true" />
       </map>
     </option>
     <option name="recentTasks">
       <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-credit-check" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="modZip" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="modZip" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="clean" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
         <ExternalTaskExecutionInfo>
           <option name="executorId" value="Run" />
           <option name="settings">
@@ -163,48 +224,6 @@
               <option name="taskNames">
                 <list>
                   <option value="generateModJson" />
-                </list>
-              </option>
-            </ExternalSystemSettings>
-          </option>
-        </ExternalTaskExecutionInfo>
-        <ExternalTaskExecutionInfo>
-          <option name="executorId" value="Run" />
-          <option name="settings">
-            <ExternalSystemSettings>
-              <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-react" />
-              <option name="externalSystemIdString" value="GRADLE" />
-              <option name="taskNames">
-                <list>
-                  <option value="dependencyInsight" />
-                </list>
-              </option>
-            </ExternalSystemSettings>
-          </option>
-        </ExternalTaskExecutionInfo>
-        <ExternalTaskExecutionInfo>
-          <option name="executorId" value="Run" />
-          <option name="settings">
-            <ExternalSystemSettings>
-              <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-react" />
-              <option name="externalSystemIdString" value="GRADLE" />
-              <option name="taskNames">
-                <list>
-                  <option value="__watch" />
-                </list>
-              </option>
-            </ExternalSystemSettings>
-          </option>
-        </ExternalTaskExecutionInfo>
-        <ExternalTaskExecutionInfo>
-          <option name="executorId" value="Run" />
-          <option name="settings">
-            <ExternalSystemSettings>
-              <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-react" />
-              <option name="externalSystemIdString" value="GRADLE" />
-              <option name="taskNames">
-                <list>
-                  <option value="modZip" />
                 </list>
               </option>
             </ExternalSystemSettings>
@@ -2112,8 +2131,19 @@
         <option value="$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/batch-task-react/build.gradle" />
         <option value="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy" />
+        <option value="$PROJECT_DIR$/batch-task-react/conf.json" />
+        <option value="$PROJECT_DIR$/batch-task-react/build.gradle" />
+        <option value="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/reactive/react/ReactWorker.groovy" />
+        <option value="$PROJECT_DIR$/batch-task-credit-check/conf.json" />
+        <option value="$PROJECT_DIR$/batch-task-credit-check/build.gradle" />
+        <option value="$PROJECT_DIR$/batch-task-creator/conf.json" />
+        <option value="$PROJECT_DIR$/batch-task-creator/build.gradle" />
+        <option value="$PROJECT_DIR$/batch-task-bill/conf.json" />
+        <option value="$PROJECT_DIR$/batch-task-bill/build.gradle" />
+        <option value="$PROJECT_DIR$/batch-task-admin/conf.json" />
+        <option value="$PROJECT_DIR$/batch-task-admin/build.gradle" />
+        <option value="$PROJECT_DIR$/batch-task-credit-check/src/main/resources/cluster.xml" />
       </list>
     </option>
   </component>
@@ -2232,15 +2262,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="batch-task-react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmp" />
+              <option name="myItemId" value="batch-task-credit-check" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2254,55 +2276,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="batch-task-react" />
+              <option name="myItemId" value="batch-task-credit-check" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mod" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BatchProcessor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BatchProcessor" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="batch-task-react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BatchProcessor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BatchProcessor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="batch-task-react" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BatchProcessor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BatchProcessor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batch-task-credit-check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="credit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2332,71 +2352,14 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/batch-task-credit-check/src/main/resources/conf" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zenvia.react" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BatchProcessor:batch-task-react [runMod]">
-    <configuration default="false" name="BatchProcessor:batch-task-react [dependencyInsight]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-react" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencyInsight" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BatchProcessor:batch-task-react [generateModJson]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-react" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="generateModJson" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="BatchProcessor:batch-task-react [generateModConfig]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-react" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="generateModConfig" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
-      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Gradle.BatchProcessor:batch-task-credit-check [modZip]">
     <configuration default="false" name="BatchProcessor:batch-task-react [properties]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -2429,6 +2392,66 @@
         <option name="taskNames">
           <list>
             <option value="runMod" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BatchProcessor [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BatchProcessor [modZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="modZip" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BatchProcessor:batch-task-credit-check [modZip]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/batch-task-credit-check" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="modZip" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -2713,19 +2736,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [dependencyInsight]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [generateModJson]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [generateModConfig]" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [properties]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [runMod]" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [properties]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [runMod]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.BatchProcessor [clean]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.BatchProcessor [modZip]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-credit-check [modZip]" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [runMod]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [properties]" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [generateModConfig]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [generateModJson]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [dependencyInsight]" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-credit-check [modZip]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.BatchProcessor [modZip]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.BatchProcessor [clean]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [runMod]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.BatchProcessor:batch-task-react [properties]" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -2785,10 +2808,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24538064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963786" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2799,7 +2823,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2834,50 +2857,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="501">
-          <caret line="0" column="116" selection-start-line="0" selection-start-column="116" selection-end-line="0" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy">
+    <entry file="file://$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/reactive/bill/BillWorker.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="687" max-vertical-offset="1455">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/zenvia/credit/CreditWorker.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2235529" vertical-offset="638" max-vertical-offset="1140">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/zenvia/task/AdminWorker.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8682635" vertical-offset="0" max-vertical-offset="615">
-          <caret line="31" column="68" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/zenvia/task/TaskWorker.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6946108" vertical-offset="627" max-vertical-offset="1320">
-          <caret line="68" column="74" selection-start-line="68" selection-start-column="69" selection-end-line="68" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-react/build/conf/mod.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="501">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2886,22 +2869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23952095" vertical-offset="225" max-vertical-offset="1185">
           <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-react/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5988024" vertical-offset="0" max-vertical-offset="885">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2946,13 +2913,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27415144" vertical-offset="0" max-vertical-offset="766">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.06005222" vertical-offset="119" max-vertical-offset="885">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="501">
+          <caret line="0" column="116" selection-start-line="0" selection-start-column="116" selection-end-line="0" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-react/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-credit-check/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14591439" vertical-offset="0" max-vertical-offset="514">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/reactive/task/TaskWorker.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15568863" vertical-offset="627" max-vertical-offset="1320">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-admin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46692607" vertical-offset="0" max-vertical-offset="514">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-admin/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-bill/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14591439" vertical-offset="0" max-vertical-offset="514">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-bill/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-creator/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35019454" vertical-offset="0" max-vertical-offset="514">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-creator/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/reactive/credit/CreditWorker.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4071857" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-credit-check/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="514">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-react/src/main/groovy/com/reactive/react/ReactWorker.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.059880238" vertical-offset="0" max-vertical-offset="510">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#26#71#0" expanded="true" />
+            <element signature="e#28#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-react/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32101166" vertical-offset="0" max-vertical-offset="645">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/reactive/task/AdminWorker.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="615">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-credit-check/src/main/resources/conf/cluster.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26946107" vertical-offset="0" max-vertical-offset="501">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

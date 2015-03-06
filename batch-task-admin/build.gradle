@@ -1,9 +1,9 @@
-group 'com.zenvia'
+group 'com.reactive'
 version '0.1.0-SNAPSHOT'
 
 vertx {
     config {
-        main 'groovy:com.zenvia.task.AdminWorker'
+        main 'groovy:com.reactive.task.AdminWorker'
     }
 
     info {

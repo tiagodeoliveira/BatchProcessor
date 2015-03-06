@@ -1,9 +1,9 @@
-group 'com.zenvia'
+group 'com.reactive'
 version '0.1.0-SNAPSHOT'
 
 vertx {
     config {
-        main 'groovy:com.zenvia.credit.CreditWorker'
+        main 'groovy:com.reactive.credit.CreditWorker'
     }
 
     info {

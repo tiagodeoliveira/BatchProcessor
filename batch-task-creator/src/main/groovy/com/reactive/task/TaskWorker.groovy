@@ -1,4 +1,4 @@
-package com.zenvia.task
+package com.reactive.task
 
 import org.apache.commons.lang.RandomStringUtils
 import org.apache.commons.lang.math.RandomUtils

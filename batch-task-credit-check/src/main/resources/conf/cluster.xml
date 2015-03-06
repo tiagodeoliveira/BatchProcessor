@@ -1,0 +1,9 @@
+<hazelcast>
+    <group>
+        <name>dev</name>
+        <password>dev-pass</password>
+    </group>
+    <network>
+        <port auto-increment="true">25500</port>
+    </network>
+</hazelcast>

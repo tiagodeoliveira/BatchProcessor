@@ -1,6 +1,5 @@
-package com.zenvia.react
+package com.reactive.react
 
-import io.vertx.rxcore.java.http.RxHttpClient
 import io.vertx.rxcore.java.http.RxHttpServer
 import org.vertx.groovy.core.http.RouteMatcher
 import org.vertx.groovy.platform.Verticle
