@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa6bfc5-58ca-457c-8e31-ca942552afb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/batch-task-credit-check/src/main/resources/conf/cluster.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/zenvia/task/AdminWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/reactive/task/AdminWorker.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/zenvia/bill/BillWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-bill/src/main/groovy/com/reactive/bill/BillWorker.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/zenvia/task/TaskWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-creator/src/main/groovy/com/reactive/task/TaskWorker.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/zenvia/credit/CreditWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-credit-check/src/main/groovy/com/reactive/credit/CreditWorker.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/zenvia/react/ReactWorker.groovy" afterPath="$PROJECT_DIR$/batch-task-react/src/main/groovy/com/reactive/react/ReactWorker.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.ipr" afterPath="$PROJECT_DIR$/BatchProcessor.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BatchProcessor.iws" afterPath="$PROJECT_DIR$/BatchProcessor.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-admin/build.gradle" afterPath="$PROJECT_DIR$/batch-task-admin/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-bill/build.gradle" afterPath="$PROJECT_DIR$/batch-task-bill/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-creator/build.gradle" afterPath="$PROJECT_DIR$/batch-task-creator/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-credit-check/build.gradle" afterPath="$PROJECT_DIR$/batch-task-credit-check/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-react/build.gradle" afterPath="$PROJECT_DIR$/batch-task-react/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-admin/conf.json" afterPath="$PROJECT_DIR$/batch-task-admin/conf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-bill/conf.json" afterPath="$PROJECT_DIR$/batch-task-bill/conf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-creator/conf.json" afterPath="$PROJECT_DIR$/batch-task-creator/conf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-credit-check/conf.json" afterPath="$PROJECT_DIR$/batch-task-credit-check/conf.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch-task-react/conf.json" afterPath="$PROJECT_DIR$/batch-task-react/conf.json" />
     </list>
     <ignored path="BatchProcessor.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,28 +75,7 @@
     <favorites_list name="BatchProcessor" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="AdminWorker.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/reactive/task/AdminWorker.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="615">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cluster.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/batch-task-credit-check/src/main/resources/conf/cluster.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26946107" vertical-offset="0" max-vertical-offset="501">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2791,7 +2753,13 @@
       <option name="project" value="LOCAL" />
       <updated>1425488037862</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New reactive module">
+      <created>1425641668331</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1425641668331</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2808,7 +2776,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24538064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -3046,18 +3014,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/reactive/task/AdminWorker.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="615">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/batch-task-credit-check/src/main/resources/conf/cluster.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26946107" vertical-offset="0" max-vertical-offset="501">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch-task-admin/src/main/groovy/com/reactive/task/AdminWorker.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08982036" vertical-offset="60" max-vertical-offset="615">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="60" />
           <folding />
         </state>
       </provider>
